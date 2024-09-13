@@ -15,7 +15,7 @@ function Greeting(){
         {/* Do not remove the main div */}
         <label htmlFor="name">Enter your name:</label><br></br><br></br>
         <input type="text" value={name} id="name" onChange={inputHandler}/>
-        {name &&<h4>Hello {name}!</h4>}
+        {name &&<h1>Hello {name}!</h1>}
     </div>
   )
 }
